@@ -28,7 +28,7 @@ MainActivity : AppCompatActivity() , Animation.AnimationListener {
         super.onWindowFocusChanged(hasFocus)
         if (hasFocus) {
             clockAnimation = findViewById<ImageView>(R.id.img1).background as AnimationDrawable
-            heartAnimation = findViewById<ImageView>(R.id.img1).background as AnimationDrawable
+            heartAnimation = findViewById<ImageView>(R.id.img2).background as AnimationDrawable
             clockAnimation.start()
             heartAnimation.start()
         } else {
